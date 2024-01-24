@@ -45,7 +45,7 @@ int main(void) {
         input[0] = button1.isPressed() ? 1:0;
         input[1] = button2.isPressed() ? 1:0;
         input[2] = button3.isPressed() ? 1:0;
-        input[3] = button3.isPressed() ? 1:0;
+        input[3] = button4.isPressed() ? 1:0;
 
         const auto output{network.Predict(input)};
 
