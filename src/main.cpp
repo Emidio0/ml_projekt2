@@ -39,7 +39,7 @@ int main(void) {
 
     }
 
-    while
+    while(true)
     {
         std::vector<double>input(4,0);
         input[0] = button1.isPressed() ? 1:0;
